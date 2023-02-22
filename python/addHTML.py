@@ -13,5 +13,5 @@ for file_name in img_files:
 html += '</div>'
 
 # salvar o código HTML em um arquivo
-with open("galeria.html", "w") as f:
+with open("atalho.txt", "w") as f:
     f.write(html)
