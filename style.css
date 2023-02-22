@@ -23,7 +23,7 @@
   }
 
   body {
-    background-image: url('bg.png');
+    background-image: url('bg.jpg');
     background-size: 100% auto;
     background-attachment: fixed;
   }
@@ -35,3 +35,11 @@
     color: white;
   }
   
+  @font-face {
+    font-family: 'MinhaFonte';
+    src: url('LEMONMILK-Medium.otf');
+  }
+  
+  body {
+    font-family: 'MinhaFonte', sans-serif;
+  }
