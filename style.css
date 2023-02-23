@@ -4,9 +4,28 @@ body{
 }
 
 
-  a {
-    color: #0077FF;
+body {
+    background-image: url('./background/bg.jpg');
+    background-size: 100% auto;
+    background-attachment: fixed;
   }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+ul li a img {
+	border-radius: 50%
+}
 
 
 .container {
@@ -33,11 +52,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
-  body {
-    background-image: url('./background/bg.jpg');
-    background-size: 100% auto;
-    background-attachment: fixed;
-  }
+ 
 
   h1 {
     text-align: center;
@@ -81,24 +96,5 @@ body{
     text-align: center;
   }
   
-  nav ul {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav li:last-child {
-    margin-right: 0;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
+
   
