@@ -50,6 +50,7 @@ ul li a img {
   .gallery img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
   }
 
  
@@ -77,8 +78,6 @@ ul li a img {
     font-family: 'Times New Roman', sans-serif;
 
   }
-
-
   
   @font-face {
     font-family: 'MinhaFonte';
@@ -95,6 +94,16 @@ ul li a img {
     padding: 20px;
     text-align: center;
   }
-  
 
+  #imgGrande {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+    cursor: pointer;
+  }
   
