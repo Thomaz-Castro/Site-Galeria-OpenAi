@@ -5,7 +5,7 @@ body{
 
 
 body {
-    background-image: url('./background/bg.jpg');
+    background-image: url('./background/bg.webp');
     background-size: 100% auto;
     background-attachment: fixed;
   }
